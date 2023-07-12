@@ -1,0 +1,9 @@
+$body-text: #000;
+$white-text: #fff;
+$text-color: #242121;
+$main-color: #00B2A0;
+
+@mixin primary-btn ($btn-color, $border-btn) {
+    background-color: $btn-color;
+    border: 1px solid $border-btn;
+}
